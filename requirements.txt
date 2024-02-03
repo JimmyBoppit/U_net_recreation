@@ -1,0 +1,8 @@
+torch
+matplotlib
+gradio
+torchvision
+lightning
+opencv-python
+pillow
+torchinfo
