@@ -25,7 +25,7 @@ data_transform = transforms.Compose(
 
 def predict(
     model: L.LightningModule = U_net_reducedV3,  # Default to U_net_reducedV3,
-    best_checkpoint_path: str = "lightning_logs/version_23/checkpoints/epoch=499-step=40000.ckpt",  # Default best checkpoint
+    best_checkpoint_path: str = "best_performing_models/version_23/checkpoints/epoch=499-step=40000.ckpt",  # Default best checkpoint
     img_path: str = "data/test/images/00a052d822.png",  # Path to iamge
     data_transform=data_transform,  # Default data_transform
 ):
